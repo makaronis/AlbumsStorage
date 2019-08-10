@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">test</string>
+    <!-- Strings for recycler_list_item -->
+    <string name="artist">Artist :</string>
+    <string name="album">Album :</string>
+    <!-- Strings for FragmentPager -->
+    <string name="search_fragment">Search</string>
+</resources>
