@@ -1,4 +1,4 @@
 package com.makaroni.albumsaver.albumInfo;
 
-public class AlbumInfo {
+public class Info {
 }

@@ -17,7 +17,7 @@ import com.arellomobile.mvp.MvpAppCompatFragment;
 import com.arellomobile.mvp.presenter.InjectPresenter;
 
 import com.google.android.material.textfield.TextInputLayout;
-import com.makaroni.albumsaver.AlbumsQuery;
+import com.makaroni.albumsaver.jsonObjects.AlbumsQuery;
 import com.makaroni.albumsaver.utility.AlbumRecyclerViewAdapter;
 import com.makaroni.albumsaver.R;
 

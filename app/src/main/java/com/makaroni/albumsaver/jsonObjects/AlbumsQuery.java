@@ -1,4 +1,4 @@
-package com.makaroni.albumsaver;
+package com.makaroni.albumsaver.jsonObjects;
     import com.google.gson.annotations.Expose;
     import com.google.gson.annotations.SerializedName;
 

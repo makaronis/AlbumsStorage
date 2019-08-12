@@ -3,8 +3,8 @@ package com.makaroni.albumsaver.search;
 import com.arellomobile.mvp.InjectViewState;
 import com.arellomobile.mvp.MvpPresenter;
 
-import com.makaroni.albumsaver.AlbumsQuery;
-import com.makaroni.albumsaver.LastFmApi;
+import com.makaroni.albumsaver.jsonObjects.AlbumsQuery;
+import com.makaroni.albumsaver.utility.LastFmApi;
 
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -29,7 +29,7 @@ public class SearchPresenter extends MvpPresenter<SearchView> {
         lastFmApi = retrofit.create(LastFmApi.class);
     }
     public void showAlbums(Map<String,String> map){
-        Call<AlbumsQuery> call = lastFmApi.getAlbum(map);
+        Call<AlbumsQuery> call = lastFmApi.searchAlbums(map);
         try {
             call.enqueue(new Callback<AlbumsQuery>(){
                 @Override

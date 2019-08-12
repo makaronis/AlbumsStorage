@@ -5,7 +5,6 @@ import android.os.Bundle;
 import androidx.viewpager.widget.ViewPager;
 
 import com.arellomobile.mvp.MvpAppCompatActivity;
-import com.google.android.material.appbar.AppBarLayout;
 import com.google.android.material.tabs.TabLayout;
 import com.makaroni.albumsaver.R;
 import com.makaroni.albumsaver.utility.FragmentAdapter;
@@ -24,6 +23,4 @@ public class MainActivity extends MvpAppCompatActivity {
         viewPager.setAdapter(adapter);
         tabLayout.setupWithViewPager(viewPager);
     }
-
-
 }

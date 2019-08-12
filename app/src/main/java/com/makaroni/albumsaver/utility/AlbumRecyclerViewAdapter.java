@@ -11,7 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 
-import com.makaroni.albumsaver.AlbumsQuery;
+import com.makaroni.albumsaver.jsonObjects.AlbumsQuery;
 import com.makaroni.albumsaver.R;
 import com.squareup.picasso.Picasso;
 

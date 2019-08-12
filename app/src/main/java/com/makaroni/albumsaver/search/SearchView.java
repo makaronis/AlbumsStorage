@@ -2,7 +2,7 @@ package com.makaroni.albumsaver.search;
 
 import com.arellomobile.mvp.MvpView;
 
-import com.makaroni.albumsaver.AlbumsQuery;
+import com.makaroni.albumsaver.jsonObjects.AlbumsQuery;
 
 import java.util.List;
 
